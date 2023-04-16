@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Anuphan:wght@200&family=Roboto&display=swap');
+
+* {
+    font-family: 'Roboto', sans-serif;
+}
+
+:root {
+    --bg-white: #fff;
+    --bg-black: #000000;
+    --gold-color: #FFD700;
+    --number: #eb7601;
+}
+
+
+/*1-я секция сайта*/
+.main_img {
+    max-width: 225px;
+    border-radius: 20px;
+}
+
+.my-name {
+    font-family: 'Roboto', sans-serif;
+    font-size: 26px;
+}
+
+.my-secondname {
+    font-family: 'Anuphan', sans-serif;
+    font-weight: 700;
+    color: var(--gold-color);
+}
+
+.job-title {
+    font-weight: 600;
+    font-family: 'Roboto', sans-serif;
+}
+
+.key-skills {
+    margin-top: 16px;
+}
+
+.age-person {
+    padding-left: 40px;
+}
+
+/*2-я секция сайта*/
+.contacts, .corse {
+    margin-top: 20px;
+}
+
+.links {
+    padding: 20px 30px;
+}
+
+.social {
+    height: 26px;
+    width: 26px;
+    color: #000;
+}
+
+.telephone-number {
+    text-decoration: none;
+    padding-left: 10px;
+    color: var(--bg-black);
+}
+
+.telephone-number:hover {
+    text-decoration: underline;
+    color: var(--number);
+    cursor: pointer;
+    transition: all .2s ease;
+}
